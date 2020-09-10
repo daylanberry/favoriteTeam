@@ -1,0 +1,16 @@
+
+
+.nav-image {
+  height: 100px;
+}
+
+.playerlist {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.welcome {
+  font-family: 'Roboto',
+    sans-serif;
+  color: teal;
+}
