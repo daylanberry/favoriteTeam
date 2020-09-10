@@ -25,7 +25,7 @@ const Footer = ({ badge, twitter, website, youtube, facebook, instagram, stadium
             </a>
           </div>
       </div>
-      <img className='image' src={badge} />
+      <img className='image' src={badge} alt='badge'/>
       <div className='social-media'>
         <SocialMedia
           twitter={twitter}

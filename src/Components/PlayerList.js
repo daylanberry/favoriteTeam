@@ -1,13 +1,9 @@
-import React, { Component } from 'react';
-import axios from 'axios';
+import React from 'react';
 import { Table, Button } from 'react-bootstrap';
 import { withRouter } from 'react-router-dom';
 
 const PlayerList = ({players, history}) => {
 
-  const routeToStats = (link) => {
-    console.log(history, link)
-  }
   return (
     <div >
       <Table striped bordered hover>

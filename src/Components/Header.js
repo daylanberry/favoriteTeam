@@ -1,7 +1,7 @@
 import React from 'react';
-import { Navbar, NavDropdown, Nav } from 'react-bootstrap';
+import { Navbar } from 'react-bootstrap';
 import './Header.css';
-import { withRouter, Link } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 
 const Header = (props) => {
 
@@ -15,6 +15,7 @@ const Header = (props) => {
           <img
             src={props.badge}
             className='nav-image'
+            alt='logo'
           />
         </div>
         <div>
@@ -25,7 +26,6 @@ const Header = (props) => {
         <div>
         </div>
         </Navbar>
-
     </div>
   )
 }
