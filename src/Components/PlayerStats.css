@@ -1,0 +1,14 @@
+.player-name {
+  font-family: 'Roboto',
+  sans-serif;
+}
+
+.stat-container {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+td {
+  width: 50px;
+  align-items: left;
+}

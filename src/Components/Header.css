@@ -2,6 +2,7 @@
 
 .nav-image {
   height: 100px;
+  cursor: pointer;
 }
 
 .playerlist {
